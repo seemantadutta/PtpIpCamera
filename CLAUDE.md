@@ -1,10 +1,10 @@
-# ArduinoPTPIP — Library Context
+# PtpIpCamera — Library Context
 
 ## What this library is
 
 A portable C++ library for wireless PTP/IP camera control on Arduino-compatible platforms (ESP32 primary target). It implements the PTP/IP transport protocol and Canon EOS vendor extensions, exposing a clean abstract interface (`ICameraControl`) that application code depends on.
 
-The library lives in `lib/ArduinoPTPIP/src/` within the ESP32PTPCameraControl project. It is designed for eventual standalone public release.
+The library lives in `lib/PtpIpCamera/src/` within the ESP32PTPCameraControl project. It is designed for eventual standalone public release.
 
 ## Layer architecture
 

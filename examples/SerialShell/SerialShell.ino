@@ -1,5 +1,5 @@
 /**
- * SerialShell.ino — ArduinoPTPIP interactive test harness
+ * SerialShell.ino — PtpIpCamera interactive test harness
  *
  * Provides a line-based serial command interface for testing all library
  * features against a real Canon EOS camera over WiFi.
@@ -63,7 +63,7 @@ void setup() {
     delay(500);
 
     PtpIpSetLogCallback(logCallback);
-    LOG_INFO("ArduinoPTPIP SerialShell starting");
+    LOG_INFO("PtpIpCamera SerialShell starting");
 
     // Register cameras. 'connect <name>' handles WiFi switching and PTP
     // session setup for whichever camera is selected.

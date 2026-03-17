@@ -5,7 +5,7 @@
 
 // ============================================================================
 // SerialShell
-// Line-buffered serial command interpreter for testing ArduinoPTPIP.
+// Line-buffered serial command interpreter for testing PtpIpCamera.
 //
 // Camera registry:
 //   Call registerCamera() for each camera before begin().

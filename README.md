@@ -1,4 +1,4 @@
-# ArduinoPTPIP — Wireless PTP/IP Camera Control for Arduino
+# PtpIpCamera — Wireless PTP/IP Camera Control for Arduino
 
 WiFi-based remote control of Canon EOS cameras via the PTP/IP protocol. Set aperture, shutter speed, and ISO; trigger single captures or bracketed exposure sequences; and keep your application in sync with physical dial changes via automatic background polling.
 
@@ -84,12 +84,12 @@ Add to your `platformio.ini`:
 
 ```ini
 lib_deps =
-    https://github.com/yourusername/ArduinoPTPIP
+    https://github.com/seemantadutta/PtpIpCamera
 ```
 
 ### Arduino IDE
 
-Search for **ArduinoPTPIP** in Sketch > Include Library > Manage Libraries.
+Search for **PtpIpCamera** in Sketch > Include Library > Manage Libraries.
 
 ---
 
@@ -158,7 +158,7 @@ PtpIpSetLogCallback([](uint8_t level, const char* msg) {
 
 ## Diagnostics
 
-ArduinoPTPIP includes a two-tier diagnostics system designed for field deployments where you cannot attach a serial monitor.
+PtpIpCamera includes a two-tier diagnostics system designed for field deployments where you cannot attach a serial monitor.
 
 ### Tier 1 — Log callback (live tracing, development)
 

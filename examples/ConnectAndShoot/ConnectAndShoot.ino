@@ -1,7 +1,7 @@
 /**
- * ConnectAndShoot.ino — ArduinoPTPIP minimal example
+ * ConnectAndShoot.ino — PtpIpCamera minimal example
  *
- * Demonstrates the simplest possible usage of ArduinoPTPIP:
+ * Demonstrates the simplest possible usage of PtpIpCamera:
  *   1. Connect to the camera's WiFi network
  *   2. Open a PTP/IP session with a Canon EOS camera
  *   3. Set aperture, shutter speed, and ISO
@@ -43,7 +43,7 @@ static bool check(const char* label, CameraResult r) {
 void setup() {
     Serial.begin(115200);
     delay(500);
-    Serial.println("\n=== ArduinoPTPIP ConnectAndShoot ===");
+    Serial.println("\n=== PtpIpCamera ConnectAndShoot ===");
 
     // ------------------------------------------------------------------
     // Step 1: Connect to WiFi

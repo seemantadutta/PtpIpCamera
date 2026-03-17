@@ -7,7 +7,7 @@ class Print;
 
 /**
  * @file ICameraControl.h
- * @brief Public interface for the ArduinoPTPIP library.
+ * @brief Public interface for the PtpIpCamera library.
  *
  * All application code should depend only on ICameraControl and the types
  * defined in this header. Camera-manufacturer details are fully isolated in
